@@ -1,6 +1,8 @@
-# gestionActualites
+# Gestion d'Actualites IONIC & MICRO-SERVICES
+une architecture basée sur les microservices cette partie représente la partie front end de projet avec mobile application
+lien github de partie back end : 
 # Application mobile avec IONIC
-# gestion d'actualites CRUD
+# gestion d'actualites 
 
 
 
