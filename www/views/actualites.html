@@ -1,0 +1,16 @@
+<ion-view view-title="Actualités">
+    <ion-content>
+        <h1>Liste d'actualités</h1>
+        <ion-list>
+            <ion-item class="item item-avatar" ng-repeat="a in listAct" ng-click="getDetailActualite(a.id)">
+                <img ng-src="{{url}}/img/{{a.photo}}" alt="">
+                <p><strong>{{a.titre}}</strong></p>
+                <p>{{a.dateCreation|date:'yyyy-MM-dd-HH-mm-ss'}}</p>
+                <p>{{a.auteur}}</p>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()">
+
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>
