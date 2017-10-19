@@ -1,11 +1,11 @@
 # gestionActualites
-#Application mobile avec IONIC
-#gestion d'actualites CRUD
+# Application mobile avec IONIC
+# gestion d'actualites CRUD
 
 
 
 
 
-##License
+## License
 all my personal projects is shared in open source license
 going up
